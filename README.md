@@ -6,12 +6,9 @@ This repository contains a project focused on detecting plant diseases using dee
 
 ## Table of Contents
 
-1. Overview
-<br>
-2. Methodology
-<br>
-3. Results
-<br>
+1. Overview<br>
+2. Methodology<br>
+3. Results<br>
 4. Technologies Used
 <br>
 5. Setup
