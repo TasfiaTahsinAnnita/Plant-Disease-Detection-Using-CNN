@@ -65,13 +65,13 @@ The CNN model consists of:
 <br>
 
 - Train Accuracy: 96.91%
-<br>
+  <br>
 - Validation Accuracy: 92.70%
-<br>
+  <br>
 - Test Accuracy: 92.08%
-<br>
+  <br>
 - While the model achieved good accuracy, there was a slight indication of overfitting in the later epochs. A confusion matrix and loss curves show that the model performed well overall but had difficulty distinguishing between certain similar classes of diseases.
-<br>
+  <br>
 
 For more detailed analysis, please refer to the Result Analysis section of the report.
 <br>
@@ -94,16 +94,17 @@ For more detailed analysis, please refer to the Result Analysis section of the r
 <br>
 
 ### Clone the repository:
-<br>
 
+
+``bash
 git clone https://github.com/yourusername/plant-disease-detection.git
-<br>
+``
 
 ### Install dependencies:
-<br>
 
+``bash
 pip install -r requirements.txt
-<br>
+``
 
 ### Download the dataset: 
 <br>
@@ -112,10 +113,10 @@ The dataset used can be found at Mendeley Data. Download the images and place th
 <br>
 
 ### Run the training notebook:
-<br>
 
+``bash
 jupyter notebook Plant_Disease_Detection.ipynb
-<br>
+``
 
 ### Usage
 <br>
@@ -127,7 +128,7 @@ The project is set up to allow users to train the model on a dataset of plant le
 <br>
 
 - Improved Generalization: Exploring advanced data augmentation techniques to improve model robustness.
-<br>
+  <br>
 - Class Imbalance: Addressing the class imbalance in the dataset to enhance accuracy.
-<br>
+  <br>
 - Transfer Learning: Experimenting with transfer learning from models trained on large
