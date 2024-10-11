@@ -9,18 +9,12 @@ This repository contains a project focused on detecting plant diseases using dee
 1. Overview<br>
 2. Methodology<br>
 3. Results<br>
-4. Technologies Used
-<br>
-5. Setup
-<br>
-6. Usage
-<br>
-7. Future Work
-<br>
-8. Contributors
-<br>
-9. License
-<br>
+4. Technologies Used<br>
+5. Setup<br>
+6. Usage<br>
+7. Future Work<br>
+8. Contributors<br>
+9. License<br>
 
 ## Overview
 <br>
@@ -47,16 +41,11 @@ The dataset comprises images of plant leaves, both healthy and diseased, from va
 The CNN model consists of:
 <br>
 
-- Four convolutional layers with ReLU activation and batch normalization
-  <br>
-- Max-pooling layers
-  <br>
-- Fully connected layers for classification
-  <br>
-- Dropout layers to prevent overfitting
-  <br>
-- The model was trained using the Adam optimizer and cross-entropy loss function. The training was conducted over 5 epochs, with performance tracked via accuracy and loss metrics on training, validation, and test sets.
-  <br>
+- Four convolutional layers with ReLU activation and batch normalization<br>
+- Max-pooling layers<br>
+- Fully connected layers for classification<br>
+- Dropout layers to prevent overfitting<br>
+- The model was trained using the Adam optimizer and cross-entropy loss function. The training was conducted over 5 epochs, with performance tracked via accuracy and loss metrics on training, validation, and test sets.<br>
 
 ## Results
 <br>
