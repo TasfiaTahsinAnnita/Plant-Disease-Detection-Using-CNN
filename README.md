@@ -102,7 +102,7 @@ For more detailed analysis, please refer to the Result Analysis section of the r
 git clone https://github.com/yourusername/plant-disease-detection.git
 <br>
 
-###Install dependencies:
+### Install dependencies:
 <br>
 
 pip install -r requirements.txt
@@ -120,13 +120,13 @@ The dataset used can be found at Mendeley Data. Download the images and place th
 jupyter notebook Plant_Disease_Detection.ipynb
 <br>
 
-###Usage
+### Usage
 <br>
 
 The project is set up to allow users to train the model on a dataset of plant leaves or use a pre-trained model to classify new images. To classify new images, run the provided predict.py script or use the trained model provided in the notebook.
 <br>
 
-##Future Work
+## Future Work
 <br>
 
 - Improved Generalization: Exploring advanced data augmentation techniques to improve model robustness.
