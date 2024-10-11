@@ -28,7 +28,6 @@ The model was trained on a dataset of healthy and diseased plant leaves. It util
 <br>
 
 ## Methodology
-<br>
 
 ### Dataset
 <br>
@@ -48,46 +47,31 @@ The CNN model consists of:
 - The model was trained using the Adam optimizer and cross-entropy loss function. The training was conducted over 5 epochs, with performance tracked via accuracy and loss metrics on training, validation, and test sets.<br>
 
 ## Results
-<br>
 
-- Train Accuracy: 96.91%
-  <br>
-- Validation Accuracy: 92.70%
-  <br>
-- Test Accuracy: 92.08%
-  <br>
-- While the model achieved good accuracy, there was a slight indication of overfitting in the later epochs. A confusion matrix and loss curves show that the model performed well overall but had difficulty distinguishing between certain similar classes of diseases.
-  <br>
+- Train Accuracy: 96.91%<br>
+- Validation Accuracy: 92.70%<br>
+- Test Accuracy: 92.08%<br>
+- While the model achieved good accuracy, there was a slight indication of overfitting in the later epochs. A confusion matrix and loss curves show that the model performed well overall but had difficulty distinguishing between certain similar classes of diseases.<br>
 
 For more detailed analysis, please refer to the Result Analysis section of the report.
 <br>
 
 ### Technologies Used
-<br>
 
-- Python
-  <br>
-- PyTorch for model building and training
-  <br>
-- Jupyter Notebook for experimentation
-  <br>
-- Google Colab for cloud-based GPU training
-  <br>
-- Pandas, NumPy, and Matplotlib for data handling and visualization
-  <br>
+- Python <br>
+- PyTorch for model building and training <br>
+- Jupyter Notebook for experimentation<br>
+- Google Colab for cloud-based GPU training<br>
+- Pandas, NumPy, and Matplotlib for data handling and visualization<br>
   
 ## Setup
-<br>
 
 ### Clone the repository:
-
-
 ``bash
 git clone https://github.com/yourusername/plant-disease-detection.git
 ``
 
 ### Install dependencies:
-
 ``bash
 pip install -r requirements.txt
 ``
@@ -99,7 +83,6 @@ The dataset used can be found at Mendeley Data. Download the images and place th
 <br>
 
 ### Run the training notebook:
-
 ``bash
 jupyter notebook Plant_Disease_Detection.ipynb
 ``
@@ -113,8 +96,6 @@ The project is set up to allow users to train the model on a dataset of plant le
 ## Future Work
 <br>
 
-- Improved Generalization: Exploring advanced data augmentation techniques to improve model robustness.
-  <br>
-- Class Imbalance: Addressing the class imbalance in the dataset to enhance accuracy.
-  <br>
+- Improved Generalization: Exploring advanced data augmentation techniques to improve model robustness.<br>
+- Class Imbalance: Addressing the class imbalance in the dataset to enhance accuracy.<br>
 - Transfer Learning: Experimenting with transfer learning from models trained on large
