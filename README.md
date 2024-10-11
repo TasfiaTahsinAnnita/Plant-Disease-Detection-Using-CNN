@@ -66,10 +66,13 @@ The CNN model consists of:
 
 - Train Accuracy: 96.91%
 <br>
+
 - Validation Accuracy: 92.70%
 <br>
+
 - Test Accuracy: 92.08%
 <br>
+
 - While the model achieved good accuracy, there was a slight indication of overfitting in the later epochs. A confusion matrix and loss curves show that the model performed well overall but had difficulty distinguishing between certain similar classes of diseases.
 <br>
 
